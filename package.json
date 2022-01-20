@@ -1,0 +1,52 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/shared/server/server.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.7.0",
+    "@types/bcrypt": "^5.0.0",
+    "aws-sdk": "^2.981.0",
+    "bcrypt": "^5.0.1",
+    "cookie": "^0.4.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.6",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-handlebars": "^5.3.3",
+    "express-rate-limit": "^5.3.0",
+    "handlebars": "^4.7.7",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.3",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-import-helpers": "^1.2.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "prisma": "^3.7.0",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.4"
+  }
+}
