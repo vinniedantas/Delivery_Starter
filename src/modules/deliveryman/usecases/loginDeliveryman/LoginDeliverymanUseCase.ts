@@ -20,7 +20,7 @@ export class LoginDeliverymanUseCase {
             throw new Error("Sorry, you entered an incorrect email address or password. Please try again.")
         }
 
-        const token = sign({ username }, "5a8545cf2972ade6066907c791806eac", {
+        const token = sign({ username }, "yourkeyhere", {
             subject: deliveryman.id,
             expiresIn: "1d"
         })
